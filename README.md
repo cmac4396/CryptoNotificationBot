@@ -13,7 +13,8 @@ https://www.python.org/downloads/release/python-391/
 Since this bot sends SMS notifications, we will need to give the bot the SMS gateway for your phone and an email to send
 messages from. 
 
-Open the bot-default-properties file in a text editor. It should look like this:
+Make a copy of the bot-default-properties file called bot-properties.
+Open the bot-properties file in a text editor. It should look like this:
 
 ![](BotProperties.png)
 
@@ -22,7 +23,6 @@ Open the bot-default-properties file in a text editor. It should look like this:
   SMS Gateways can be found [here](https://dev.to/mraza007/sending-sms-using-python-jkd).
 * Change the smtp field to the appropriate smtp server for your email.  
 
-### Python Modules 
 ~~~
 # This module retrieves data from the Gemini cryptocurrency API.
 import requests, json
