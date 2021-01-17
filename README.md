@@ -13,7 +13,7 @@ https://www.python.org/downloads/release/python-391/
 Since this bot sends SMS notifications, we will need to give the bot the SMS gateway for your phone and an email to send
 messages from. 
 
-Make a copy of the bot-default-properties file called bot-properties.
+Make a copy of the bot-default-properties file and name it bot-properties.
 Open the bot-properties file in a text editor. It should look like this:
 
 ![](BotProperties.png)
